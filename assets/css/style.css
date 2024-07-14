@@ -1,0 +1,88 @@
+.explanation {
+  background-image: url("../images/login.png");
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.hero-category {
+  display: inline-block;
+}
+.hero-category a,
+.hero-category.active a {
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 14px;
+}
+
+.accessibility-text {
+  position: absolute;
+  width: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.search-input-hero .search-input {
+  border: 1px solid #820e0e;
+  border-radius: 4px;
+  padding: 8px;
+  border-color: #9ea7a3;
+  padding: 15px 20px 15px 20px;
+  border-radius: 50px;
+}
+
+.shot-statistics-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #9e9ea7;
+  font-family: var(
+    --font-face,
+    "Haas Grot Text R Web",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif
+  );
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.single-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* Tambahkan lebar atau tinggi maksimal yang sesuai */
+}
+
+.home-desc {
+  padding-left: 15rem !important;
+  padding-right: 15rem !important;
+}
+
+.img-pekerjaan {
+  width: 100%;
+  height: 200px; /* Ubah sesuai kebutuhan Anda */
+  object-fit: cover;
+}
+
+.img-pekerjaan-detail {
+  width: 100%;
+  height: 300px; /* Ubah sesuai kebutuhan Anda */
+  object-fit: cover;
+  border-radius: 10px;
+}
